@@ -27,3 +27,6 @@ concatGreeting  = hBinOutput + ' ' + eBinOutput + ' ' + lBinOutput + ' ' + lBinO
 #print the concatenated greeting
 print(concatGreeting)
 
+#print multiple strings
+print(hBinOutput, eBinOutput, lBinOutput, lBinOutput, oBinOutput, sep = " | ")
+
