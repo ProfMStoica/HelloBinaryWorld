@@ -13,7 +13,7 @@ translation = BinaryTranslator.translateText(textInput)
 print(f"The translation of {textInput} is:\n{translation}")
 
 #ask the user for a number
-numInput = int(input("Please enter a number to translate into binary"))
+numInput = int(input("Please enter a number to translate into binary: "))
 
 #use the binary translator to translate the number into binary
 translation = BinaryTranslator.translateNum(numInput)

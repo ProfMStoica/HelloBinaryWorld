@@ -19,8 +19,6 @@ def translateText(textToTranslate):
 
 """Translate a given number into its binary representaiton"""
 def translateNum(numToTranslate):
-    #TODO: implement number translation
-    binTranslation = ""
-    pass
+    binTranslation = bin(numToTranslate)[2:]
     return binTranslation
 
